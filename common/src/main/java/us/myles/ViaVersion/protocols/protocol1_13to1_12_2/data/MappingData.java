@@ -57,6 +57,9 @@ public class MappingData extends us.myles.ViaVersion.api.data.MappingData {
             oldToNew[1555] = 3984; // mossy stone bricks
             oldToNew[1556] = 3985; // cracked stone bricks
             oldToNew[1557] = 3986; // chiseled stone bricks
+            oldToNew[79] = 34; // water
+            oldToNew[80] = 34; // water
+            oldToNew[8435] = 34; // water
         }
 
         JsonObject object = MappingDataLoader.loadFromDataDir("channelmappings-1.13.json");
